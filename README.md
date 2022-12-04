@@ -8,4 +8,4 @@
 • Further spectral analysis was performed by showing the variation of the squared deviation between the power spectrum of the Frequency Modulated Signals and the power spectrum of the simultaneous Amplitude and Frequency Modulated signals that were generated, for varying values of Amplitude Modulation indices. 
 
 • The research paper was implemented on Simulink by designing a block model of Frequency Modulated Waves and Simultaneous Amplitude and Frequency Modulated Waves
-•The power spectrum was then displayed with the help of a digital transfer function.
+• The power spectrum was then displayed with the help of a digital transfer function.
