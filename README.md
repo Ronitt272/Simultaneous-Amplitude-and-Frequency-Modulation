@@ -45,11 +45,13 @@ Due to the additional components generated from the Amplitude Modulation counter
 
 # Frequency Spectrum Measurement
 
-The project has been implemented on MATLAB and Simulink, so in order to implement the frequency spectrum of the Simultaneous Amplitude and Angle Modulated signal generated, we make the use of ‘fft’ function available on MATLAB to calculate the Discrete Fourier Transform values associated with each value of frequency. For obtaining the same on Simulink, we generate the required signal, and make use of a buffer and a spectrum analyzer to generate the Fourier spectrum of the simultaneously modulated signal so formed.
+- The project has been implemented on MATLAB and Simulink, so in order to implement the frequency spectrum of the Simultaneous Amplitude and Angle Modulated signal generated, we make the use of ‘fft’ function available on MATLAB to calculate the Discrete Fourier Transform values associated with each value of frequency.
+- For obtaining the same on Simulink, we generate the required signal, and make use of a buffer and a spectrum analyzer to generate the Fourier spectrum of the simultaneously modulated signal so formed.
 
 # Power Spectrum Measurement
 
-Since the project has been implemented on MATLAB, the power spectrum has been measured using the knowledge of logarithms as well the ‘fft’ function available on MATLAB to calculate the Fast Fourier Transform. Through the outputs as well as code shared, we see that the power spectrum is calculated such that the y-axis contains values in dbm and the x-axis contains the range of frequency for which we are calculating the power spectrum. For obtaining the same on Simulink, we first generate the time varying simultaneously Amplitude and Frequency modulated signal, and then we make use of a buffer and a spectrum analyzer to obtain the frequency spectrum. After that, we choose a logarithmic scale to finally obtain the power spectrum of the simultaneously amplitude and frequency modulated wave.
+- Since the project has been implemented on MATLAB, the power spectrum has been measured using the knowledge of logarithms as well the ‘fft’ function available on MATLAB to calculate the Fast Fourier Transform. Through the outputs as well as code shared, we see that the power spectrum is calculated such that the y-axis contains values in dbm and the x-axis contains the range of frequency for which we are calculating the power spectrum.
+- For obtaining the same on Simulink, we first generate the time varying simultaneously Amplitude and Frequency modulated signal, and then we make use of a buffer and a spectrum analyzer to obtain the frequency spectrum. After that, we choose a logarithmic scale to finally obtain the power spectrum of the simultaneously amplitude and frequency modulated wave.
 
 # Results 
 
