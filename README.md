@@ -17,7 +17,8 @@
 
 # Amplitude Modulation Estimation
 
-![image](https://user-images.githubusercontent.com/68660836/227349643-aef5bca8-a973-4de1-b132-84ae58caaed6.png)
+<img width="646" alt="image" src="https://user-images.githubusercontent.com/68660836/227356942-0806acdb-cbe3-4218-8ab6-7dc082f9f81c.png">
+
 
 # Frequency Modulation Estimation 
 
@@ -32,12 +33,26 @@ For a given signal, the power spectrum gives a plot of the portion of a signal's
 
 ![image](https://user-images.githubusercontent.com/68660836/227354305-f5fd519b-0d29-44de-9736-c22655f94f52.png)
 
-It is evident that there are components at the infinite set of frequencies. The power distribution is centered at the carrier frequency. The crucial thing resulting from the properties of Bessel function is that higher the parameter k, which is the modulation index of Frequency Modulation, the more dispersed is the power distribution. The bandwidth of single-tone angle modulated signal can be estimated by
- 
-Carson’s rule, which states that appoximately 98 % of the total power is contained in the bandwidth, B, where, B = 2 * (k + 1) * fm
+It is evident that there are components at the infinite set of frequencies. The power distribution is centered at the carrier frequency. The crucial thing resulting from the properties of Bessel function is that higher the parameter k, which is the modulation index of Frequency Modulation, the more dispersed is the power distribution. The bandwidth of single-tone angle modulated signal can be estimated by Carson’s rule, which states that appoximately 98 % of the total power is contained in the bandwidth, B, where, B = 2 * (k + 1) * fm
+
 The similar result holds for simultaneous angle and amplitude modulation, therefore, it is possible to approximate the power of spectral component Pn at frequency f = fc + n*fm , n = 0, ±1, ±2, . . .
 
 The first term in square bracket corresponds to pure angle modulation, while the second term is excited by amplitude modulation. This term is responsible for the spectral leakage and power spectrum asymmetry following from sin(∆) term and Bessel function property.
+
+![image](https://user-images.githubusercontent.com/68660836/227357257-9f37fe69-39ed-4a43-81ad-2d40062eb1d1.png)
+
+Due to the additional components generated from the Amplitude Modulation counterpart, we can see that a particular asymmetry has been introduced to the power spectrum of the simultaneous Amplitude and Frequency Modulation signal.
+
+# Frequency Spectrum Measurement
+
+The project has been implemented on MATLAB and Simulink, so in order to implement the frequency spectrum of the Simultaneous Amplitude and Angle Modulated signal generated, we make the use of ‘fft’ function available on MATLAB to calculate the Discrete Fourier Transform values associated with each value of frequency. For obtaining the same on Simulink, we generate the required signal, and make use of a buffer and a spectrum analyzer to generate the Fourier spectrum of the simultaneously modulated signal so formed.
+
+# Power Spectrum Measurement
+
+Since the project has been implemented on MATLAB, the power spectrum has been measured using the knowledge of logarithms as well the ‘fft’ function available on MATLAB to calculate the Fast Fourier Transform. Through the outputs as well as code shared, we see that the power spectrum is calculated such that the y-axis contains values in dbm and the x-axis contains the range of frequency for which we are calculating the power spectrum. For obtaining the same on Simulink, we first generate the time varying simultaneously Amplitude and Frequency modulated signal, and then we make use of a buffer and a spectrum analyzer to obtain the frequency spectrum. After that, we choose a logarithmic scale to finally obtain the power spectrum of the simultaneously amplitude and frequency modulated wave.
+
+# Results 
+
 
 
 
