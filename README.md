@@ -21,7 +21,7 @@
 
 # Frequency Modulation Estimation 
 
-![image](https://user-images.githubusercontent.com/68660836/227353620-af55e6c6-e355-4155-89c1-5d0cc38b283f.png)
+<img width="554" alt="image" src="https://user-images.githubusercontent.com/68660836/227356571-66070ce8-0868-42de-b7d1-a40607d39c85.png">
 
 
 # Power Spectrum
