@@ -61,5 +61,22 @@ Through the use of the various functions and tools available on MATLAB and Simul
 
 2.) In the time varying form of Simultaneous Frequency and Amplitude Modulation signal generated, we can see the presence of an Amplitude Modulation envelope. Whereas, we cannot witness any such envelope in the case of the general Frequency Modulated Wave.
 
+# Time domain analysis 
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/68660836/227500414-d870d5d9-8428-477c-a3b9-bbbc75bc5fdc.png">
+
+<img width="708" alt="image" src="https://user-images.githubusercontent.com/68660836/227500550-1af8d858-8e3d-41d8-82b9-77162ba6ed5d.png">
+
+<img width="708" alt="image" src="https://user-images.githubusercontent.com/68660836/227500684-667bdcce-53a8-4067-a316-839409692e8f.png">
+
+# Frequency domain analysis
+<img width="707" alt="image" src="https://user-images.githubusercontent.com/68660836/227500803-65b7228d-12b2-46de-a2d8-be1ff52861f7.png">
+
+# Power domain analysis
+<img width="708" alt="image" src="https://user-images.githubusercontent.com/68660836/227500943-f67b4373-a9fa-46f7-809a-c57d94d0805e.png">
+
+
+
+
+
 
 
