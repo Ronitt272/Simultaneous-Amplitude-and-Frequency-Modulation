@@ -55,6 +55,11 @@ Due to the additional components generated from the Amplitude Modulation counter
 
 # Results 
 
+Through the use of the various functions and tools available on MATLAB and Simulink, we were able to perform a detailed study of how the technique of carrying out Amplitude Modulation of the already frequency modulated signals by the same phase shifted signals results into Frequency and Power Spectrum of it’s own that have their own unique properties. Some interesting points of difference between FM and Simultaneous FM and AM waves are:
+
+1.) The frequency as well as Power Spectrum of FM modulated wave are symmetric about the carrier frequency. Whereas, in the case of Simultaneous FM and AM wave, the frequency as well as the Power Spectrum are not symmetric about the carrier frequency.
+
+2.) In the time varying form of Simultaneous Frequency and Amplitude Modulation signal generated, we can see the presence of an Amplitude Modulation envelope. Whereas, we cannot witness any such envelope in the case of the general Frequency Modulated Wave.
 
 
 
