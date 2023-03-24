@@ -74,6 +74,23 @@ Through the use of the various functions and tools available on MATLAB and Simul
 # Power domain analysis
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/68660836/227500943-f67b4373-a9fa-46f7-809a-c57d94d0805e.png">
 
+# Error analysis 
+
+<img width="707" alt="image" src="https://user-images.githubusercontent.com/68660836/227503314-f2c6880c-356b-4b8a-9e70-8ae5cc2533bd.png">
+
+<img width="707" alt="image" src="https://user-images.githubusercontent.com/68660836/227503407-a6b2fb5a-ed85-4d51-a21d-e5ff765bd143.png">
+
+
+# Simulink 
+
+# Time varying simultaneous Amplitude and Frequency Modulated signal
+<img width="809" alt="image" src="https://user-images.githubusercontent.com/68660836/227503591-2b3e4f35-c8a3-4d55-b28b-25e8574e3eb3.png">
+
+# Power spectrum of Frequency Modulated signal
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/68660836/227505362-89aefaf6-c838-4011-902e-f2f09e8a2171.png">
+
+# Power spectrum of simultaneous Amplitude and Frequency Modulated signal
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/68660836/227505609-49788623-1132-4a71-be97-80ae1b0e85fa.png">
 
 
 
