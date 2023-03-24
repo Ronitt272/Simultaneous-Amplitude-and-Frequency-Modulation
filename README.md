@@ -83,8 +83,10 @@ Through the use of the various functions and tools available on MATLAB and Simul
 
 # Simulink 
 
-# Time varying simultaneous Amplitude and Frequency Modulated signal
 <img width="809" alt="image" src="https://user-images.githubusercontent.com/68660836/227503591-2b3e4f35-c8a3-4d55-b28b-25e8574e3eb3.png">
+
+# Time varying simultaneous Amplitude and Frequency Modulated signal
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/68660836/227506223-a0a20872-8648-49cf-958b-c18b4fdba090.png">
 
 # Power spectrum of Frequency Modulated signal
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/68660836/227505362-89aefaf6-c838-4011-902e-f2f09e8a2171.png">
